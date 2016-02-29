@@ -1,52 +1,79 @@
 body {
-  background: #f9e933;
+  background: LightSeaGreen;
 }
 
 header, main, footer {
-  min-width: 855px;
+    min-width: 100%;
+    padding:15px 0;
+    width:100%;
 }
 
 header .container, main .container, footer .container {
-  max-width: 855px;
+    max-width: 85%;
+    
   margin: auto;
 }
 
 header {
-  background: white;
+  background:SteelBlue ;
   overflow: auto;
+ 		
 }
 
 header h1 {
   float: left;
-  width: 570px;
+  height: 25%;
+   font: Sans-serif;
 }
 
 header nav {
   float: right;
-  width: 285px;
+  width: 25%;
 }
 
 main {
   background: white;
   overflow: auto;
+  height: 70%;
+  padding:75px 0;
+
 }
 
 main .left {
   float: left;
-  width: 570px;
+  width: 35%;
 }
 
 main .right {
   float: right;
-  width: 285px;
+  width: 25%;
 }
 
 footer .left {
   float: left;
-  width: 570px;
+  width: 25%;
 }
 
 footer .sitemap {
   float: right;
-  width: 285px;
+  width: 25%;
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
