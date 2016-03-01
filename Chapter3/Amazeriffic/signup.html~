@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Amazeriffic</title>
+    <link rel="stylesheet" type="text/css" href="style.css">    
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Amazeriffic</h1>
+      <nav>
+	<a href="signup.html#">Sign Up!</a> |
+	<a href="faq.html">FAQ</a> |
+	<a href="#">Support</a>
+	</nav>
+    </header>
+    
+    <main>
+      <h2>Sign Up!</h2>
+      <p>Enter the following details: </p>
+      <form>
+  user name:<br>
+  <input type="text" name="username"><br>
+  password:<br>
+  <input type="password" name="password"><br>
+  Re-enter password:<br>
+  <input type="password" name="password-re"><br>
+ email address:<br>
+  <input type="text" name="email"><br>
+  Re-enter email address:<br>
+  <input type="text" name="email-re"><br><br>
+  <button type="submit">Submit</button>
+      </form>
+     
+    </main>
+
+    <footer>
+      <div class="contact">
+	<h5>Contact Us</h5>
+	<p>Amzazeriffic!</p>
+	<p>555 fiftieth Street</p>
+	<p>Asheville, NC 28801</p>
+      </div>
+      <div class="sitemap">
+	<h5>Sitemap</h5>
+	<ul>
+	  <li><a href="#">Home</a></li>
+	  <li><a href="#">About Us</a></li>
+	  <li><a href="#">Privacy</a></li>
+	  <li><a href="#">Support</a></li>
+	  <li><a href="#">FAQ</a></li>
+	  <li><a href="#">Careers</a></li>
+	</ul>
+	</div>
+    </footer>
+    
+  </body>
+</html>
+

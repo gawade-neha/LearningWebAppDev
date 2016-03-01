@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Amazeriffic</title>
+    <link rel="stylesheet" type="text/css" href="style.css">    
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Amazeriffic</h1>
+      <nav>
+	<a href="signup.html">Sign Up!</a> |
+	<a href="faq.html">FAQ</a> |
+	<a href="#">Support</a>
+	</nav>
+    </header>
+    
+    <main>
+      <h2>Frequently asked questions!</h2>
+      <ol>
+	<li>Why to use this website?
+	  <p>This website is awesome</p>
+	</li>
+	<li>How to navigate around the website?
+	  <p>Use the navigation bar at the top of the page</p></li>
+	<li>How to contact us?
+	  <p>Use the contact us information on the home page</p></li>
+	<li>How to go back to home page?
+	  <p>Click on the <a href="index.html">Home</a></p></li>
+	</ol>
+    </main>
+
+    <footer>
+      <div class="contact">
+	<h5>Contact Us</h5>
+	<p>Amzazeriffic!</p>
+	<p>555 fiftieth Street</p>
+	<p>Asheville, NC 28801</p>
+      </div>
+      <div class="sitemap">
+	<h5>Sitemap</h5>
+	<ul>
+	  <li><a href="#">Home</a></li>
+	  <li><a href="#">About Us</a></li>
+	  <li><a href="#">Privacy</a></li>
+	  <li><a href="#">Support</a></li>
+	  <li><a href="#">FAQ</a></li>
+	  <li><a href="#">Careers</a></li>
+	</ul>
+	</div>
+    </footer>
+    
+  </body>
+</html>
+
