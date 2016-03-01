@@ -23,8 +23,7 @@ header {
 header h1 {
   float: left;
   height: 25%;
-   font: Sans-serif;
-}
+font-family: Tahoma, Geneva, sans-serif;}
 
 header nav {
   float: right;
@@ -60,12 +59,12 @@ footer .sitemap {
 }
 /* unvisited link */
 a:link {
-    color: white;
+    color: yellow;
 }
 
 /* visited link */
 a:visited {
-    color: hotpink;
+    color: white;
 }
 
 /* mouse over link */
@@ -76,4 +75,25 @@ a:hover {
 /* selected link */
 a:active {
     color: blue;
+}
+
+form button {
+
+background: #0066A2;
+
+color: white;
+
+border-style: outset;
+
+border-color: #0066A2;
+
+height: 50px;
+
+width: 100px;
+
+font: bold 15px arial, sans-serif;
+
+}
+form input{
+    padding: 5px;
 }
