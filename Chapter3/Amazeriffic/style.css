@@ -1,10 +1,15 @@
+*{
+	margin : 0;
+	padding : 0;	
+}
 body {
-  background: LightSeaGreen;
+    background: #f9e933;
+
 }
 
 header, main, footer {
     min-width: 100%;
-    padding:15px 0;
+    padding:25px 0;
     width:100%;
 }
 
@@ -15,7 +20,7 @@ header .container, main .container, footer .container {
 }
 
 header {
-  background:SteelBlue ;
+  background:white ;
   overflow: auto;
  		
 }
@@ -23,7 +28,9 @@ header {
 header h1 {
   float: left;
   height: 25%;
-font-family: Tahoma, Geneva, sans-serif;}
+  font-family: Tahoma, Geneva, sans-serif;
+  color:red;
+}
 
 header nav {
   float: right;
@@ -47,34 +54,47 @@ main .right {
   float: right;
   width: 25%;
 }
-
+main .left ul{
+ 
+ padding: 10px 25px;
+ }
+ 
+ main .left li{
+	 padding-left : 2px;
+ }
+ 
 footer .left {
   float: left;
   width: 25%;
+  padding: 20px 0;
 }
 
 footer .sitemap {
   float: right;
   width: 25%;
+  padding: 20px 0;
+}
+footer{
+    padding:15px 0;
 }
 /* unvisited link */
 a:link {
-    color: yellow;
+    color: blue;
 }
 
 /* visited link */
 a:visited {
-    color: white;
+    color: red;
 }
 
 /* mouse over link */
 a:hover {
-    color: red;
+    color: purple;
 }
 
 /* selected link */
 a:active {
-    color: blue;
+    color: darkblue;
 }
 
 form button {
