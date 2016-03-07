@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework 3</title>
+    </head>
+  <body>
+    <script src="Underscore.js" type="text/javascript">
+    <script src="homework3.js" type="text/javascript">
+    
+    <div>document.write(exercise1([1,2,3,4]));></div>
+    <div>document.write(exercise2([1,2,3,4]));</div>
+    <div>document.write(exercise3([1,2,3,4]));</div>
+    <div>document.write(exercise4([1,2,3,4]));</div>
+    <div>document.write(arrayContains(["hello","world"],"hello"));</div>
+    <div>document.write(arrayContainsTwo(["a","b","c","d"],"a"));</div>
+    <div>document.write(arrayContainsThree(["a","b","c","d","a","a"],"a"));</div>
+    <div>document.write(arrayContainsNTimes(["a","b","c","d"],"a",1));</div>
+     </script>
+     <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+</body>
+</html>
