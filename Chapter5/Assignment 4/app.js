@@ -3,7 +3,7 @@ var main = function() {
     var addHtml;
 
     function populateHtml() {
-        $.getJSON("http://localhost:3004/actors", function(getData) {
+        $.getJSON("http://localhost:3000/actors", function(getData) {
 
             getData.forEach(function(getObject) {
                 if (getObject.starred === true) {
@@ -21,7 +21,7 @@ var main = function() {
     }
    
     $("button").on("click", function() {
-        $.post("http://localhost:3004/actors", {
+        $.post("http://localhost:3000/actors", {
             name: $("#sample1").val(),
             starred: false
         });
@@ -32,7 +32,7 @@ var main = function() {
     $(document).bind("click", ".mdl-list__item-secondary-action .material-icons", function (eventCall) {
             var icon = $(event.target);
             var id = icon.attr("id");
-            $.getJSON("http://localhost:3004/actors", function(data) {
+            $.getJSON("http://localhost:3000/actors", function(data) {
                 data.forEach(function(actor) {
                     if (id === JSON.stringify(actor.id)) {
                       if (JSON.stringify(actor.starred) === "true") {
@@ -40,7 +40,7 @@ var main = function() {
                             $.ajax({
                                 type: 'PUT',
                                 contentType: 'application/json',
-                                url: 'http://localhost:3004/actors/' + id,
+                                url: 'http://localhost:3000/actors/' + id,
                                 data: JSON.stringify({
                                       name: actor.name,
                                       starred: false
@@ -52,7 +52,7 @@ var main = function() {
                             $.ajax({
                                 type: 'PUT',
                                 contentType: 'application/json',
-                                url: 'http://localhost:3004/actors/' + id,
+                                url: 'http://localhost:3000/actors/' + id,
                                 data: JSON.stringify({
                                       name: actor.name,
                                       starred: true
