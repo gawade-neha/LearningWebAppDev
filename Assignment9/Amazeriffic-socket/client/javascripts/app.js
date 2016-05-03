@@ -1,6 +1,8 @@
+// Client-side code
+/* jshint browser: true, jquery: true,curly: true, eqeqeq: true, forin: true, immed: true, indent: 4, latedef: true, newcap: true, nonew: true, quotmark: double, undef: true, unused: true, strict: true, trailing: true */
 /*globals ko*/
 /*globals $*/
-//creating todo object for newest and oldest tab
+
 //creating a todo object for tags tab
 var Tab = function(name, selected) {
     this.name = name;
@@ -9,6 +11,7 @@ var Tab = function(name, selected) {
     }, this);
 };
 
+//creating todo object for newest and oldest tab
 function ToDo(data) {
     this.description = ko.observable(data.description);
     this.tags = ko.observableArray(data.tags);
